@@ -1,4 +1,6 @@
 # udper
 
-> udper.SetAddr(":2000")
-> udper.Get(func () {myFuncThatCallsAUDP()})
+``` golang
+udper.SetAddr(":2000")
+udper.Get(func () {myFuncThatCallsAUDP()})
+```
